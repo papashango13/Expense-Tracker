@@ -1,0 +1,26 @@
+.minus, .plus {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .minus {
+    color: red;
+  }
+  
+  .plus {
+    color: green;
+  }
+  
+  .delete-btn {
+    font-size: 12px;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #8b0a0a;
+  }

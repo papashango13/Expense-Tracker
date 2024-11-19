@@ -1,0 +1,48 @@
+.addTransaction {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .addTransaction-title {
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+  }
+  
+  .label {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  
+  input {
+    width: 25rem;
+    height: 2rem;
+    border: 1px solid gray;
+    padding: 10px;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .btn {
+    width: 15rem;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: 8px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: rgb(60, 209, 60);
+  }

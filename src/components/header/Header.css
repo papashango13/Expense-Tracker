@@ -1,0 +1,16 @@
+.header {
+    font-size: 2rem;
+    background-color: rgb(102, 102, 228);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    color: white;
+    padding: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+  .header h1 {
+    font-weight: bold; 
+    margin: 0; 
+  }
